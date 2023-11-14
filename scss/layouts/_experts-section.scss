@@ -1,0 +1,41 @@
+.experts-section {
+  margin-top: -144px;
+  margin-bottom: 80px;
+  position: relative;
+  background: url(/images/exsperts-bg.png) center center no-repeat;
+  background-size: 2009px 833px;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 42px;
+  }
+  &__title {
+    position: relative;
+    width: 605px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 312px;
+  }
+  &__title::before {
+    position: absolute;
+    background-image: url('../images/dog-left.png');
+    background-repeat: no-repeat;
+    width: 488px;
+    height: 520px;
+    content: '';
+    top: 50px;
+    left: -416px;
+  }
+  &__title::after {
+    position: absolute;
+    background-image: url('../images/dog-right.png');
+    width: 322px;
+    height: 752px;
+    content: '';
+    top: -140px;
+    right: -416px;
+  }
+}

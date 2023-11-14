@@ -1,0 +1,66 @@
+.header {
+  &__wrapper {
+    padding-top: 18px;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding-top: 32px;
+      display: flex;
+      align-items: center;
+      gap: 115px;
+    }
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  &__list {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 48px;
+      list-style: none;
+    }
+  }
+  &__list li a.ctive,
+  &__list li a:hover {
+    color: var(--dog-landing-31, #ff9f0e);
+  }
+  &__cart-button {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.header__button {
+  display: none;
+
+  @media screen and (min-width: $bp-tablet) {
+    display: block;
+  }
+}
+
+.header__burger {
+  // display: block; ця кнопка є блочною за замовчуванням
+  fill: #ff9f0e;
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  @media screen and (min-width: $bp-tablet) {
+    display: none;
+  }
+}
+.header__cart {
+  width: 24px;
+  height: 24px;
+  @media screen and (min-width: $bp-tablet) {
+    width: 40px;
+    height: 40px;
+  }
+}

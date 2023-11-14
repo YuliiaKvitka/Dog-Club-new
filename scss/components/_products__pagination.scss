@@ -1,0 +1,66 @@
+.products__pagination-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  position: relative;
+}
+.products__pagination-list li {
+  color: var(--dog-landing-3-c-4, #181817);
+  text-align: center;
+  padding: 4px 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.products__pagination-list li:hover {
+  border-radius: 2px;
+  background-color: var(--dog-landing-31);
+}
+.products__pagination {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// --------------------
+.button__arrow-left {
+  width: 32px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.button__arrow-left::before {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 14px;
+  padding: 5px 5px;
+  top: 34%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  transform: rotate(225deg);
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.button__arrow-right {
+  width: 32px;
+  height: 24px;
+  border-radius: 50%;
+}
+.button__arrow-right:after {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 14px;
+  padding: 5px 5px;
+  top: 34%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  transform: rotate(45deg);
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}

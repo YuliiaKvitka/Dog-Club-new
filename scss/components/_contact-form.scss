@@ -1,0 +1,95 @@
+.contact-form {
+  height: 373px;
+  height: 100%;
+  &__user-name::placeholder {
+    background-position: auto center;
+    background-size: 32px 32px;
+    padding: 8px 8px 8px 40px;
+    background: url('../images/form-icons/your-name.svg') no-repeat;
+    color: var(--dog-landing-31);
+    height: 48px;
+  }
+  &__pet-name::placeholder {
+    background-position: auto center;
+    background-size: 32px 32px;
+    padding: 8px 8px 8px 40px;
+    background: url('../images/form-icons/pet-name.svg') no-repeat;
+    color: var(--dog-landing-31);
+  }
+  &__phone::placeholder {
+    background-position: auto center;
+    background-size: 32px 32px;
+    padding: 8px 8px 8px 40px;
+    background: url('../images/form-icons/phone.svg') no-repeat;
+    color: var(--dog-landing-31);
+    left: 8px;
+  }
+  &__cmc::placeholder {
+    background-position: auto center;
+    left: 8px;
+  }
+  &__email::placeholder {
+    background-position: auto center;
+    background: url('../images/form-icons/email.svg') no-repeat;
+    background-size: 32px 32px;
+    padding: 8px 8px 8px 40px;
+    color: var(--dog-landing-31);
+    left: 8px;
+  }
+  &__button {
+    display: block;
+    margin: 0 auto;
+    width: 151px;
+    height: 53px;
+    border: none;
+  }
+  &__button-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+  }
+  &__policy {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid var(--dog-landing-3-c-6, #839aa9);
+  }
+  &__policy:hover,
+  &__policy:focus {
+    background: url('../images/Property-active.svg') no-repeat;
+    background-size: 16px 16px;
+    background-color: transparent;
+  }
+
+  &__label-policy {
+    color: var(--dog-landing-3-c-6, #839aa9);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.17;
+  }
+}
+.contact-form-input {
+  position: relative;
+  text-align: center;
+  margin-bottom: 24px;
+  &__control {
+    height: 48px;
+    padding: 8px 40px;
+    width: 600px;
+    border-radius: 8px;
+    border: 1px solid var(--dog-landing-31);
+  }
+  &__control-footer {
+    padding: 8px 24px;
+    height: 41px;
+    width: 320px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--dog-landing-31);
+  }
+}

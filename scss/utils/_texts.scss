@@ -1,0 +1,158 @@
+.text-h1 {
+  color: var(--dog-landing-3-c-4);
+  text-align: center;
+  font-family: Rowdies;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.24;
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 72px;
+    letter-spacing: 3.6px;
+    text-align: left;
+  }
+}
+.text-h2 {
+  color: var(--dog-landing-3-c-4);
+  font-family: Rowdies;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.24;
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 56px;
+  }
+}
+.text-h2-orange {
+  font-family: Rowdies;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.24;
+  color: var(--dog-landing-31);
+}
+.text-h3 {
+  color: var(--dog-landing-3-background);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.17;
+}
+.text-h4 {
+  color: var(--dog-landing-3-c-5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+}
+.text-h4-black {
+  color: var(--dog-landing-3-c-4);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+}
+.text-h6 {
+  color: var(--dog-landing-31);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+}
+.text-h6-bold {
+  font-weight: 600;
+  color: var(--dog-landing-31, #ff9f0e);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+}
+.text-p {
+  color: var(--dog-landing-3-c-4);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 22px;
+    line-height: 1.54;
+    text-align: left;
+  }
+}
+.text-p--card {
+  font-size: 16px;
+  color: var(--dog-landing-3-c-5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+}
+.text-p--grey {
+  color: var(--dog-landing-3-c-6);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+}
+.text-link {
+  color: var(--dog-landing-3-c-4);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+  text-decoration: none;
+}
+.text-menu-active {
+  color: var(--dog-landing-31);
+}
+.text-count {
+  color: var(--text-count);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+}
+.text-category {
+  color: var(--dog-landing-31);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.17;
+}
+.text-form {
+  color: var(--dog-landing-31);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+}
+.text-form-footer {
+  color: var(--dog-landing-31, #ff9f0e);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.centered {
+  text-align: center;
+}

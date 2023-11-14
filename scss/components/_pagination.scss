@@ -1,0 +1,17 @@
+.pagination {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  &__button {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    background-color: var(--dog-landing-3-c-6);
+    border-radius: 50%;
+    &--active {
+      background-color: var(--dog-landing-31);
+    }
+  }
+}

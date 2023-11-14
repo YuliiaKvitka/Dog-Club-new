@@ -1,0 +1,57 @@
+.carousel {
+  z-index: 1;
+  &__slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  &__container {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    max-width: 344px;
+    height: 456px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #fa0;
+    position: relative;
+  }
+  &__img {
+    border-radius: 24px;
+  }
+  &__info {
+    position: absolute;
+    top: 328px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 43px 16px 42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 24px 24px;
+    background: var(--dog-landing-3-c-6, #839aa9);
+    padding-left: 42px;
+    padding-right: 43px;
+  }
+  &__info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__ball {
+    display: flex;
+    gap: 40px;
+  }
+}

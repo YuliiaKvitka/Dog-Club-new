@@ -1,0 +1,21 @@
+.modal {
+  position: relative;
+  width: 880px;
+  height: 880px;
+  border-radius: 32px;
+  background-color: #fffaf3;
+  padding-top: 142px;
+  padding-left: 137.5px;
+  padding-right: 137.5px;
+
+  &__btn-close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+}

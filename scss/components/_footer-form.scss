@@ -1,0 +1,61 @@
+.footer-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  &__input {
+    width: 320px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--dog-landing-31, #ff9f0e);
+  }
+  &__input-email::placeholder {
+    background-position: auto center;
+    background: url('../images/form-icons/email.svg') center left no-repeat;
+    background-size: 24px 24px;
+    padding: 8px 8px 8px 24px;
+    color: var(--dog-landing-31);
+  }
+  &__input::placeholder {
+    color: var(--dog-landing-31, #ff9f0e);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    padding: 8px 8px 8px 24px;
+    margin: 0;
+  }
+  &__button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 126px;
+    height: 35px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin: 0 auto;
+    border: navajowhite;
+  }
+  &__button-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+  }
+
+  &::after {
+    position: absolute;
+    background: url(/images/dog-footer.png);
+    width: 292px;
+    height: 305px;
+    bottom: -78px;
+    right: -298px;
+    content: '';
+  }
+}

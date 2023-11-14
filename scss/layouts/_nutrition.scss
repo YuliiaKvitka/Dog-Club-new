@@ -1,0 +1,41 @@
+.main-section {
+  height: 70px;
+  margin-top: 70px;
+  margin-bottom: 32px;
+
+  &__wrapper {
+    width: 1239px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 9px;
+  }
+  &__sorting {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-width: 640px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    border-top: 1px solid var(--dog-landing-3-c-6);
+    border-right: 1px solid var(--dog-landing-3-c-6);
+    border-bottom: 1px solid var(--dog-landing-3-c-6);
+    padding: 8px;
+  }
+  &__item:first-child {
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid var(--dog-landing-3-c-6);
+  }
+  &__item.active,
+  &__item:hover {
+    background: var(--dog-landing-31);
+  }
+}
+// --------------------------------------------------
+.products-section__wrapper {
+  position: relative;
+}

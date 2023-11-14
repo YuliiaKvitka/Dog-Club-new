@@ -1,0 +1,47 @@
+.mobile-menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--dog-landing-3-background);
+  transform: translateX(100%);
+  transition: transform 0.3s;
+
+  &.is-open {
+    transform: translateX(0);
+  }
+  &__btn-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    fill: #ff9f0e;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__list li a:hover,
+  &__list li a.active {
+    color: var(--dog-landing-31, #ff9f0e);
+  }
+  &__logo {
+    width: 92px;
+    height: 20px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+  &__social {
+    margin-top: 24px;
+    display: flex;
+    gap: 8px;
+    width: 32px;
+    height: 32px;
+  }
+}

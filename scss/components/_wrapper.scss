@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  // background-color: var(--dog-landing-3-background);
+  @media screen and (min-width: $bp-tablet) {
+    max-width: 1230px;
+  }
+}
+.wrapper-absolute {
+  position: absolute;
+  left: 454px;
+  top: 33px;
+}
+.main-wrapper {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: $bp-tablet) {
+    max-width: 1248px;
+  }
+}

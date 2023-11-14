@@ -1,0 +1,88 @@
+.products {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px 40px;
+    justify-items: center;
+    margin-top: 76px;
+  }
+  &__grid-item {
+    max-width: 288px;
+    height: 512px;
+    border-radius: 8px;
+    background: var(--dog-landing-3-background, #fff);
+    text-align: center;
+  }
+  &__grid-item:hover {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    transition: 0.7s;
+  }
+
+  &__grid-img {
+    padding: 14px 75px;
+  }
+  &__rating p {
+    color: var(--dog-landing-3-c-6);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+  }
+  &__rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 256px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  &__price-block {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+  &__button {
+    width: 32px;
+    height: 21px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: var(--dog-landing-31, #ff9f0e);
+    color: var(--beauty-landing-2-background, #fff);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__price-sale {
+    color: var(--dog-landing-3-c-4, #181817);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  &__price {
+    color: var(--dog-landing-3-c-6, #839aa9);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+  }
+}

@@ -1,0 +1,60 @@
+.hero-section {
+  background: url(../images/hero-bg.png) center center no-repeat;
+  background-size: 625px 323px;
+  flex-shrink: 0;
+  height: 100%;
+  @media screen and (min-width: $bp-desktop) {
+    background-size: 1563px 808px;
+  }
+  &__wrapper {
+    position: relative;
+    padding-top: 32px;
+    display: flex;
+    gap: 65px;
+
+    @media screen and (min-width: $bp-tablet) {
+      position: relative;
+      padding-top: 212px;
+      display: flex;
+      gap: 65px;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 303px;
+    @media screen and (min-width: $bp-tablet) {
+      width: 635px;
+      gap: 40px;
+    }
+  }
+  &__img {
+    display: none;
+    @media screen and (min-width: $bp-desktop) {
+      display: block;
+      padding-top: 23px;
+      width: 506px;
+      height: 516px;
+      margin-bottom: 52px;
+    }
+  }
+  &__image {
+    width: 506px;
+    height: 516px;
+  }
+  &__text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 296px;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 499px;
+      gap: 24px;
+      align-items: flex-start;
+    }
+  }
+}
