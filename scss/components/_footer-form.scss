@@ -8,7 +8,7 @@
     height: 40px;
     background-color: transparent;
     border-radius: 8px;
-    border: 1px solid var(--dog-landing-31, #ff9f0e);
+    border: 1px solid var(--dog-landing-31);
   }
   &__input-email::placeholder {
     background-position: auto center;
@@ -18,7 +18,7 @@
     color: var(--dog-landing-31);
   }
   &__input::placeholder {
-    color: var(--dog-landing-31, #ff9f0e);
+    color: var(--dog-landing-31);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -51,7 +51,7 @@
 
   &::after {
     position: absolute;
-    background: url(/images/dog-footer.png);
+    background: url(../images/dog-footer.png);
     width: 292px;
     height: 305px;
     bottom: -78px;

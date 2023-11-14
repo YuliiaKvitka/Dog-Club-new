@@ -55,7 +55,7 @@
     height: 16px;
     flex-shrink: 0;
     border-radius: 2px;
-    border: 1px solid var(--dog-landing-3-c-6, #839aa9);
+    border: 1px solid var(--dog-landing-3-c-6);
   }
   &__policy:hover,
   &__policy:focus {
@@ -65,7 +65,7 @@
   }
 
   &__label-policy {
-    color: var(--dog-landing-3-c-6, #839aa9);
+    color: var(--dog-landing-3-c-6);
     text-align: center;
     font-family: Roboto;
     font-size: 12px;

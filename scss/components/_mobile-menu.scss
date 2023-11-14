@@ -20,7 +20,7 @@
     background-color: transparent;
     width: 24px;
     height: 24px;
-    fill: #ff9f0e;
+    fill: var(--dog-landing-31);
   }
   &__list {
     display: flex;
@@ -29,7 +29,7 @@
   }
   &__list li a:hover,
   &__list li a.active {
-    color: var(--dog-landing-31, #ff9f0e);
+    color: var(--dog-landing-31);
   }
   &__logo {
     width: 92px;

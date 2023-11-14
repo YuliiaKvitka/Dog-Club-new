@@ -1,6 +1,6 @@
 .service-section {
   margin-bottom: 20px;
-  background: url(../images/service-bg.svg) center center no-repeat;
+  background: url('../images/service-bg.svg') center center no-repeat;
   background-size: 1988px 521px;
   margin-top: 46px;
   height: 100%;
@@ -28,7 +28,7 @@
     align-items: center;
     gap: 24px;
     border-radius: 16px;
-    border: 1px solid var(--dog-landing-38, #f9f9ff);
+    border: 1px solid var(--dog-landing-38);
     background: linear-gradient(180deg, #fff 0%, #fffbf4 100%);
     box-shadow: 0px 4px 4px 0px rgba(24, 24, 23, 0.05);
     height: 240px;
