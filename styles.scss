@@ -1,0 +1,36 @@
+@import './scss/utils/normalize';
+@import './scss/utils/default';
+@import './scss/utils/variables';
+@import './scss/utils/fonts';
+@import './scss/utils/texts';
+@import './scss/utils/visually-hidden';
+
+@import './scss/components/wrapper';
+@import './scss/components/logo';
+@import './scss/components/button';
+@import './scss/components/hero-section-dog';
+@import './scss/components/paws';
+@import './scss/components/arrow';
+@import './scss/components/video';
+@import './scss/components/food';
+@import './scss/components/bone-ball';
+@import './scss/components/carousel-button';
+@import './scss/components/carousel';
+@import './scss/components/pagination';
+@import './scss/components/contact-form';
+@import './scss/components/rating';
+@import './scss/components/products';
+@import './scss/components/products__pagination';
+@import './scss/components/footer-form';
+@import './scss/components/backdrop';
+@import './scss/components/mobile-menu';
+@import './scss/layouts/header';
+@import './scss/layouts/hero-section';
+@import './scss/layouts/needs-section';
+@import './scss/layouts/service-section';
+@import './scss/layouts/customer-section';
+@import './scss/layouts/experts-section';
+@import './scss/layouts/footer';
+@import './scss/layouts/modal';
+
+@import './scss/layouts/nutrition';
